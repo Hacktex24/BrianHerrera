@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brian Herrera | Professional Portfolio</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="idioma-switch">
+    <button id="btn-es">ES</button>
+    <button id="btn-en">EN</button>
+  </div>
+  <header>
+    <img src="img/foto-brian.jpg" alt="Brian Herrera" class="foto-perfil" />
+    <h1 id="nombre">Brian Herrera</h1>
+    <h2 id="titulo">Ingeniero de Procesos | Supervisor Industrial</h2>
+    <p class="frase" id="frase"></p>
+    <a id="cv-link" href="docs/cv-brian-herrera.pdf" download class="boton-cv">Download CV</a>
+  </header>
+
+  <main>
+    <!-- SOBRE MÍ / ABOUT ME -->
+    <section class="sobre-mi">
+      <h3 id="sobre-mi-titulo"></h3>
+      <p id="sobre-mi-texto"></p>
+    </section>
+
+    <!-- LOGROS / ACHIEVEMENTS -->
+    <section class="logros">
+      <h3 id="logros-titulo"></h3>
+      <ul id="logros-lista"></ul>
+    </section>
+
+    <!-- EXPERIENCIA / EXPERIENCE -->
+    <section class="experiencia">
+      <h3 id="experiencia-titulo"></h3>
+      <div id="experiencia-contenido"></div>
+    </section>
+
+    <!-- CERTIFICADOS / CERTIFICATIONS -->
+    <section class="certificados">
+      <h3 id="certificados-titulo"></h3>
+      <div class="galeria">
+        <figure>
+          <img src="img/certificado5.png" alt="Lean Manufacturing Yellow Belt" data-title="Lean Manufacturing por IECA">
+          <figcaption>Lean Manufacturing por IECA</figcaption>
+        </figure>
+        <figure>
+          <img src="img/certificado4.png" alt="Six Sigma Green Belt" data-title="Análisis de Modo y Efecto de Falla (AMEF) por IECA">
+          <figcaption>Análisis de Modo y Efecto de Falla (AMEF) por IECA</figcaption>
+        </figure>
+        <figure>
+          <img src="img/certificado3.png" alt="Python for Data Science" data-title="Administración de inventarios y almacenes por UVEG">
+          <figcaption>Administración de inventarios y almacenes por UVEG</figcaption>
+        </figure>
+        <figure>
+          <img src="img/certificado2.png" alt="Python for Data Science" data-title="Sistemas de Instrumentación y Control Embebidos por TECNNM">
+          <figcaption>Sistemas de Instrumentación y Control Embebidos por TECNNM</figcaption>
+        </figure>
+        <figure>
+          <img src="img/certificado1.png" alt="Python for Data Science" data-title="Soporte Técnico por MICROSOFT">
+          <figcaption>Soporte Técnico por MICROSOFT</figcaption>
+        </figure>
+        <!-- Agrega más certificados -->
+      </div>
+    </section>
+
+    <!-- CONTACTO / CONTACT -->
+    <section class="contacto">
+      <h3 id="contacto-titulo"></h3>
+      <ul>
+        <li>Email: <a href="mailto:Brian.herrera.alvarez.2021@gmail.com">Brian.herrera.alvarez.2021@gmail.com</a></li>
+        <li>Phone: <a href="tel:4612636011">461-263-6011</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/brian-martin-herrera-alvarez-0744b8357/" target="_blank">/brian-herrera-06399221a/</a></li>
+      </ul>
+      <p id="frase-contacto"></p>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 Brian Herrera</small>
+  </footer>
+
+  <!-- Lightbox para certificados -->
+<div id="lightbox" class="lightbox" style="display:none">
+  <div class="lightbox-contenido">
+    <span class="cerrar" id="cerrar-lightbox">&times;</span>
+    <div id="lightbox-title" class="lightbox-title"></div>
+    <img id="img-lightbox" src="" alt="Certificado ampliado">
+  </div>
+</div>
+
+  <script src="js/main.js"></script>
+  <script src="js/lightbox.js"></script>
+</body>
+</html>
