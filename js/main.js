@@ -26,7 +26,7 @@ const textos = {
         <li>Formación y desarrollo de equipos de alto desempeño, con enfoque en seguridad, eficiencia y calidad.</li>
       </ul>
       <br>
-      <strong>Desarrollo de proyectos de automatización y visión artificial:</strong><br>
+      <strong>Desarrollo de proyectos de automatización y visión artificial en el Tecnológico Nacional de Mexico:</strong><br>
       <ul>
         <li>Diseño e implementación de sistemas de visión artificial en Python para la industria alimentaria, automatizando la inspección y análisis de productos lácteos.</li>
         <li>Modelado 3D y validación funcional de prótesis transtibial impresa en 3D, en colaboración con equipos multidisciplinarios.</li>
@@ -63,7 +63,7 @@ const textos = {
         <li>Developed and trained high-performance teams with a focus on safety, efficiency, and quality.</li>
       </ul>
       <br>
-      <strong>Automation and Machine Vision Projects:</strong><br>
+      <strong>Development of automation and machine vision projects at the National Technological Institute of Mexico.><br>
       <ul>
         <li>Designed and implemented Python-based machine vision systems for the food industry, automating inspection and shelf-life analysis of dairy products.</li>
         <li>3D modeling and functional validation of transtibial prostheses, collaborating with multidisciplinary teams.</li>
