@@ -18,7 +18,7 @@ const textos = {
     ],
     experienciaTitulo: "Experiencia Profesional",
     experienciaContenido: `
-      <strong>Ingeniero de Procesos – CW Technology (2021–Actualidad):</strong><br>
+      <strong>Ingeniero de Procesos – CW Technology (Enero 2021–Junio 2025):</strong><br>
       Responsable de la estrategia operativa y la mejora continua en 3 líneas automatizadas de producción de valeros para el sector automotriz. Gestión directa de 43 técnicos y 8 líderes de equipo, liderando iniciativas de transformación industrial 4.0, automatización de indicadores clave y proyectos de ahorro anual con impacto financiero.<br>
       <ul>
         <li>Implementación y documentación de nuevas líneas de producción (BMW, Toyota), coordinando arranques desde cero y asegurando la transición eficiente a operaciones estables.</li>
@@ -33,6 +33,7 @@ const textos = {
       </ul>
     `,
     certificadosTitulo: "Certificaciones",
+	cartasTitulo: "Cartas de Recomendación",
     contactoTitulo: "Contacto",
     fraseContacto: "¿Interesado en mi perfil? ¡Contáctame!"
   },
@@ -54,7 +55,7 @@ const textos = {
     ],
     experienciaTitulo: "Professional Experience",
     experienciaContenido: `
-      <strong>Process Engineer – CW Technology (2021–Present):</strong><br>
+      <strong>Process Engineer – CW Technology (January 2021–June 2025):</strong><br>
       Responsible for operational strategy and continuous improvement across 3 automated bearing production lines for the automotive sector. Direct management of 43 technicians and 8 team leaders, driving Industry 4.0 transformation, KPI automation, and annual cost-saving projects with financial impact.<br>
       <ul>
         <li>Implemented and documented new production lines (BMW, Toyota), overseeing start-ups from scratch and ensuring efficient transition to stable operations.</li>
@@ -69,6 +70,7 @@ const textos = {
       </ul>
     `,
     certificadosTitulo: "Certifications",
+	cartasTitulo: "Letters of Recommendation",
     contactoTitulo: "Contact",
     fraseContacto: "Interested in my profile? Get in touch!"
   }
@@ -85,6 +87,7 @@ function cambiarIdioma(idioma) {
   document.getElementById('sobre-mi-texto').innerHTML = textos[idioma].sobreMiTexto;
   document.getElementById('logros-titulo').innerText = textos[idioma].logrosTitulo;
   document.getElementById('certificados-titulo').innerText = textos[idioma].certificadosTitulo;
+  document.getElementById('cartas-titulo').innerText = textos[idioma].cartasTitulo;
   document.getElementById('contacto-titulo').innerText = textos[idioma].contactoTitulo;
   document.getElementById('frase-contacto').innerText = textos[idioma].fraseContacto;
   document.getElementById('experiencia-titulo').innerText = textos[idioma].experienciaTitulo;
