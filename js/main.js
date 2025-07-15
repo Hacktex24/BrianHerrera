@@ -63,7 +63,7 @@ const textos = {
         <li>Developed and trained high-performance teams with a focus on safety, efficiency, and quality.</li>
       </ul>
       <br>
-      <strong>Development of automation and machine vision projects at the National Technological Institute of Mexico.><br>
+      <strong>Development of automation and machine vision projects at the National Technological Institute of Mexico.<br>
       <ul>
         <li>Designed and implemented Python-based machine vision systems for the food industry, automating inspection and shelf-life analysis of dairy products.</li>
         <li>3D modeling and functional validation of transtibial prostheses, collaborating with multidisciplinary teams.</li>
